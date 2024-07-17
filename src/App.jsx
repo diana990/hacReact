@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [quote, setQuote] = useState("Kanye once said")
   useEffect(() => { //react hook
-    fetch('https://drive.google.com/file/d/1IOuTBXC5gglDKp5QkJ2Bgaea-IIUM4bI/view?usp=sharing')
+    fetch('https://api.kanye.rest/')
       .then((res) => {
         const data = res.json()
         return data;
