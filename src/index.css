@@ -1,11 +1,21 @@
-body, html, .App {
+body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #FFC0DE;
   }
   
+  .App {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #6a2a49;
+    
+  }
   .top-container, .middle-container, .bottom-container {
     display: flex;
   }

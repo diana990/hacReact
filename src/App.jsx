@@ -24,11 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="header">
-        <button onClick={() => setLists(prevLists => ({ ...prevLists, study: [] }))}>Study</button>
-        <button onClick={() => setLists(prevLists => ({ ...prevLists, mentalHealth: [] }))}>Mental Health</button>
-        <button onClick={() => setLists(prevLists => ({ ...prevLists, physicalHealth: [] }))}>Physical Health</button>
-      </div>
+      
       <div className="lists">
         <div className="list">
           <h2>Study Tasks</h2>
@@ -93,7 +89,24 @@ function App() {
             }}
           />
         </div>
+        
       </div>
+      <div className='calendar'>
+        <h2>Daily Quote</h2>
+      </div>
+      <div id="meditation" className='meditation'>
+            <h3>Meditation for Concentration</h3>
+            <button className='medBTN'>Start Meditation</button>
+        </div>
+
+        <div id="meditation" className='meditation'>
+            <h3>Meditation for Activation</h3>
+            <button className='medBTN'>Start Meditation</button>
+        </div>
+
+        <div className='calendar'>
+            <h2>Calendar</h2>
+        </div>
     </div>
   );
 }
