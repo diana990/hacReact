@@ -25,6 +25,17 @@ function App() {
   return (
     <div className="App">
       
+      <nav className='navbar'>
+        <ul className='ul'>
+          <li><a href="home.jsx">Home</a></li>
+          <li><a href="to-do.jsx">To-Do-Lists</a></li>
+          <li><a href="mediation-app">Meditation</a></li>
+          <li><a href="calendar.jsx">Calendar</a></li>
+          
+        </ul>
+
+      </nav>
+      
       <div className="lists">
         <div className="list">
           <h2>Study Tasks</h2>
