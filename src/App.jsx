@@ -91,6 +91,7 @@ function App() {
         </div>
         
       </div>
+      
       <div className='calendar'>
         <h2>Daily Quote</h2>
       </div>
